@@ -80,15 +80,25 @@ export const experiences = [
 //WORK PAGE
 export const work_heading = "Some things I've built";
 export const work_projects = [
-  {
-    title: "Prague - An Architechture Firm's Website",
-    desc: "A website for an architecture firm to portray their work, design inspired by prague.",
+   {
+    title: "CleanTank's Website",
+    desc: " A website of a tank cleaning and service company, design inspired by prague.",
     tech_stack: ["Next.JS", "TypeScript", "Sass"],
-    picture: "prague.png",
+    picture: "cleantank.png",
     links: {
-      github: "https://github.com/AishwaryaT19/prague",
-      website: "https://prague-demo.vercel.app/",
-    },
+      github: "https://github.com/gobindgalaxy/cleanTank",
+      website: "https://cleantankservices.com"
+    }
+  },
+  {
+    title: "Radiant's Website",
+    desc: "An  ISR based e-commerce website for shooping from Radiant ( a small business)",
+    tech_stack: ["Next.JS", "TypeScript", "Sass"],
+    picture: "radiant.png",
+    links: {
+      github: "https://github.com/AishwaryaT19/Radiant",
+      website: "https://radiant-tau.vercel.app/"
+    }
   },
   {
     title: "Sketch Club's Website",
